@@ -1,0 +1,25 @@
+.Row {
+}
+
+.Row-movies {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 1rem;
+}
+
+.Row-movies::-webkit-scrollbar {
+  display: none;
+}
+
+.Row-movie {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+  margin-right: 0.5rem;
+  transition: transform 450ms;
+}
+
+.Row-movie:hover {
+  transform: scale(1.1);
+}
