@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./Banner";
+import Nav from "./Nav";
 import requests from "./request";
 import Row from "./Row";
 
@@ -7,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Nav />
         <Banner />
       </header>
 
