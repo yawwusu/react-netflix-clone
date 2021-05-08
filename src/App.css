@@ -3,10 +3,14 @@
 }
 
 .App {
+  background-color: black;
 }
 
 .App-header {
+  text-align: center;
+  color: white;
 }
 
 .App-body {
+  color: white;
 }
