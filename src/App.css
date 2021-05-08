@@ -3,11 +3,12 @@
 }
 
 .App {
-  background-color: black;
+  background-color: #111;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
 }
 
 .App-header {
-  text-align: center;
   color: white;
 }
 

@@ -1,4 +1,5 @@
 import "./App.css";
+import Banner from "./Banner";
 import requests from "./request";
 import Row from "./Row";
 
@@ -6,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Let's build the netflix clone</h1>
+        <Banner />
       </header>
 
       <main className="App-body">

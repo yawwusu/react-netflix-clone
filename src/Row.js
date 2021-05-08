@@ -1,8 +1,7 @@
 import React from "react";
 import axios from "./axios";
+import { baseurl } from "./request";
 import "./Row.css";
-
-const baseurl = "https://image.tmdb.org/t/p/original/";
 
 function Row({ title, fetchUrl, isLargeRow }) {
   const [movies, setMovies] = React.useState([]);
@@ -10,7 +9,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
   React.useEffect(() => {
     async function fetchData() {
       const req = await axios.get(fetchUrl);
-      console.log("req", req.data.results);
       setMovies(req.data.results);
     }
     fetchData();
