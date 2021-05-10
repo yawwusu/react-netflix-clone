@@ -11,6 +11,6 @@ const requests = {
   fetchDocumentaries: `/discover/movie?api_key=${api_key}&with_genres=99`,
 };
 
-export const baseurl = "https://image.tmdb.org/t/p/original";
+export const baseurl = "https://image.tmdb.org/t/p/original/";
 
 export default requests;

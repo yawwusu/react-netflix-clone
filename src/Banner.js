@@ -9,11 +9,6 @@ function Banner() {
   React.useEffect(() => {
     async function fetchMovie() {
       const req = await axios.get(requests.fetchNetflixOriginals);
-      console.log(
-        req.data.results[
-          Math.floor(Math.random() * (req.data.results.length - 1))
-        ]
-      );
       setMovie(
         req.data.results[
           Math.floor(Math.random() * (req.data.results.length - 1))
