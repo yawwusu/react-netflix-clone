@@ -1,3 +1,8 @@
+# Netflix Clone Built with React + Firebase with the TMDB api
+
+### It features axios api calls, firebase hosting,Youtube trailer plugins and Netflix's look and feel. Enjoy!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
